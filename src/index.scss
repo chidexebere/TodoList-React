@@ -1,0 +1,26 @@
+:root {
+  font-size: 62.5%;
+}
+:root body {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+// color Variables
+$primary: #66ccff;
+
+body {
+  padding: 5rem;
+  background-color: $primary;
+  font-family: sans-serif;
+}
+#root {
+  display: flex;
+  justify-content: center;
+}
